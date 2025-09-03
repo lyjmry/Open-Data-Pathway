@@ -35,12 +35,12 @@
     "Weekly Allocation": "10TiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
+    "State": "Declined",
     "Validated At": "",
     "Validated By": "",
-    "Active": true,
-    "Updated At": "2025-09-03 04:28:06.237281427 UTC",
-    "Active Request ID": "",
+    "Active": false,
+    "Updated At": "2025-09-03 05:10:24.742802219 UTC",
+    "Active Request ID": null,
     "On Chain Address": "test321312",
     "Multisig Address": "false",
     "edited": false

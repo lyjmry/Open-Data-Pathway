@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f12efiattfj62bqt6mgbfvxyq3b65fzzw7rxjhtwi",
+  "Issue Number": "6",
+  "Client": {
+    "Name": "Santa Cruz Genome Institute",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://hgdownload.soe.ucsc.edu/downloads.html",
+    "Social Media": "https://genome.ucsc.edu/contacts.html",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "D&D Tech is a technology company based in Hong Kong. We specialize in data storage, data encryption. Is a participant and builder of Filecoin and IPFS.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The interactive website offers access to genome sequence data from a variety of vertebrate and invertebrate species and major model organisms, integrated with a large collection of aligned annotations. This dataset is a copy of the MySQL tables in MyISAM binary and tab-sep format and all binary files in custom formats, sometimes referred as 'gbdb'-files. Data from the UCSC Genome Browser is free and open for use by anyone. However, every genome annotation track has been created by an academic research group, or, in a few cases, by commercial companies. Please acknowledge them by citing them. The information can be found by going to https://genome.ucsc.edu, selecting the respective genome assembly and clicking on the data track. At the end of the documentation, we provide a list of references and acknowledgements.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We used the Go language to develop a set of tools that automatically download, cut, package data, and place orders. The tool will download the data set file from AWS, package the data set into a car file of the corresponding size by setting parameters such as sector size, and then distribute the car file to each SP through bandwidth and hard disk mail. Then, we use Boost to issue orders offline to let the SP start packaging using the Lotus program.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "aws s3 ls --no-sign-request s3://genome-browser/ 290.1611 TiB",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, North America, Europe, South America",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03289271 Germany\nf03367915 United States\nf03368008 Vietnam\nf03607310 Brazil\nf03603117 United States",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "2PiB",
+    "Single Size Dataset": "410",
+    "Replicas": 5,
+    "Weekly Allocation": "1000TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-09-06 05:11:45.982956018 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f12efiattfj62bqt6mgbfvxyq3b65fzzw7rxjhtwi",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}

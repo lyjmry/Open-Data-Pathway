@@ -1,6 +1,6 @@
 # LiongLabs Filplus-onboard 
 
-Contact: lu@minerdao.in or @lyjmry on Filecoin Slack
+Contact: lu@minerdao.org or @lyjmry on Filecoin Slack
 
 Background:
 

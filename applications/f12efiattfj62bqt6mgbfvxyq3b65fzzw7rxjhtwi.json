@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f12efiattfj62bqt6mgbfvxyq3b65fzzw7rxjhtwi",
   "Issue Number": "6",
+  "Client Contract Address": "f410f2xgqfmpd53zdbfy36etp5lduum56cvxm4ziraty",
   "Client": {
     "Name": "Santa Cruz Genome Institute",
     "Region": "United States",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "1000TiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-09-06 08:16:34.061200145 UTC",
+    "Validated By": "lyjmry",
     "Active": true,
-    "Updated At": "2025-09-06 05:11:45.982956018 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-09-06 08:16:34.061204173 UTC",
+    "Active Request ID": "04d65e2c-87f4-4da3-a7dc-8943474d3313",
     "On Chain Address": "f12efiattfj62bqt6mgbfvxyq3b65fzzw7rxjhtwi",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "04d65e2c-87f4-4da3-a7dc-8943474d3313",
+      "Request Type": "First",
+      "Created At": "2025-09-06 08:16:34.061206517 UTC",
+      "Updated At": "2025-09-06 08:16:34.061207289 UTC",
+      "Active": true,
+      "Allocation Amount": "109951162777600 B",
+      "Signers": []
+    }
+  ]
 }

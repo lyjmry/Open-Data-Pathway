@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-09-11 16:39:39.326837763 UTC",
+    "Validated At": "2025-10-03 16:29:40.626041520 UTC",
     "Validated By": "lyjmry",
     "Active": true,
-    "Updated At": "2025-09-11 16:39:39.326834158 UTC",
-    "Active Request ID": "514a1bbf-e8cf-4e6a-885e-ded108cba61c",
+    "Updated At": "2025-10-03 16:29:40.626040797 UTC",
+    "Active Request ID": "762d8e82-7bf4-4603-82bb-3eae2819a35e",
     "On Chain Address": "f12efiattfj62bqt6mgbfvxyq3b65fzzw7rxjhtwi",
     "Multisig Address": "false",
     "edited": false
@@ -123,6 +123,45 @@
           "Set Max Deviation CID": "bafy2bzaceddsbaxufa4okwpnhaeugccanop4yjecv4gcl3d22u6itqv5ucktc",
           "Add Allowed Storage Providers CID": {
             "bafy2bzacebiojafic2tjpiii554d2dkv4qshlcqwvdin2tkvi5ud3azofr2mm": [
+              "3289271",
+              "3367915",
+              "3368008",
+              "3607310",
+              "3603117"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "1b3ae7ff-d9c2-4ec3-ac5b-bdea271a66ee",
+      "Created At": "2025-10-03 16:29:40.626014594 UTC",
+      "Updated At": "2025-10-03 16:29:40.626019925 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3649204,
+        3649204,
+        3649217,
+        3649217,
+        3649217,
+        3637813
+      ],
+      "Signers": [
+        {
+          "Github Username": "lyjmry",
+          "Signing Address": "f1cdaymbuyum3yf26ibsushykd6imktbp2cuzcnmi",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacea2zdipbzky7te5f3boyqekcriejt76tkplv2wqftyfrdoyscsm6q": [
+              "3649204",
+              "3649204",
+              "3649217",
+              "3649217",
+              "3649217",
+              "3637813"
+            ]
+          },
+          "Remove Allowed Storage Providers CID": {
+            "bafy2bzaceapbicy5lgvkrfqmfrusodx5qmbtktidw4ertxkymrfbtt5ax4hd6": [
               "3289271",
               "3367915",
               "3368008",

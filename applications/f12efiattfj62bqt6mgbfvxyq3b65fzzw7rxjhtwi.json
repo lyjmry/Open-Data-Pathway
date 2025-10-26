@@ -37,10 +37,10 @@
   },
   "Lifecycle": {
     "State": "ReadyToSign",
-    "Validated At": "2025-10-26 09:19:11.980228713 UTC",
+    "Validated At": "2025-10-26 09:21:02.929106507 UTC",
     "Validated By": "lyjmry",
     "Active": true,
-    "Updated At": "2025-10-26 09:19:11.980232706 UTC",
+    "Updated At": "2025-10-26 09:21:02.929105637 UTC",
     "Active Request ID": "7310f329-aa57-4a65-9be4-f44781a3262c",
     "On Chain Address": "f12efiattfj62bqt6mgbfvxyq3b65fzzw7rxjhtwi",
     "Multisig Address": "false",
@@ -218,6 +218,30 @@
           "Signing Address": "f1cdaymbuyum3yf26ibsushykd6imktbp2cuzcnmi",
           "Add Allowed Storage Providers CID": {
             "bafy2bzaceatxslfsm5nhww67zckvx5lsowz4crlxwftquh4uzglyo4cefvazy": [
+              "3637821",
+              "3649212",
+              "3649227"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "17f0d6e1-cb1e-43c4-88d9-bde8adabde04",
+      "Created At": "2025-10-26 09:21:02.929074371 UTC",
+      "Updated At": "2025-10-26 09:21:02.929081470 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3649204
+      ],
+      "Signers": [
+        {
+          "Github Username": "lyjmry",
+          "Signing Address": "f1cdaymbuyum3yf26ibsushykd6imktbp2cuzcnmi",
+          "Remove Allowed Storage Providers CID": {
+            "bafy2bzacedtdh46dqzot6c7g5xcmknonupljwumewu3t5mqolzvntialz2vmg": [
+              "3637813",
+              "3649217",
               "3637821",
               "3649212",
               "3649227"

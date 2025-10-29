@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f1dlyeuoudandahi3cqhq4z2ig4zlsrn6ksy5z3vq",
   "Issue Number": "17",
+  "Client Contract Address": "f410f2xgqfmpd53zdbfy36etp5lduum56cvxm4ziraty",
   "Client": {
     "Name": "USCB& NARA&CELLxGENE",
     "Region": "United States",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "2PiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-10-29 04:16:10.781695481 UTC",
+    "Validated By": "lyjmry",
     "Active": true,
-    "Updated At": "2025-10-26 08:38:25.635080417 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-10-29 04:16:10.781700496 UTC",
+    "Active Request ID": "dd92afe3-ab72-4077-a5da-773bb3a1c941",
     "On Chain Address": "f1dlyeuoudandahi3cqhq4z2ig4zlsrn6ksy5z3vq",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "dd92afe3-ab72-4077-a5da-773bb3a1c941",
+      "Request Type": "First",
+      "Created At": "2025-10-29 04:16:10.781702738 UTC",
+      "Updated At": "2025-10-29 04:16:10.781703672 UTC",
+      "Active": true,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": []
+    }
+  ]
 }
